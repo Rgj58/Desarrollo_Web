@@ -1,0 +1,20 @@
+:root{
+  --color-line-1: #F7EC7D;
+  --color-line-2: #E38F66;
+  --color-line-3: #AA445F;
+  --color-line-4: #62306D;
+}
+ 
+ body  {
+      margin: 0; 
+     padding: 0; 
+     
+}  
+ 
+.shadow{
+    width: 1300px; 
+    height: 120px; 
+    background: var(--color-line-1);
+    box-shadow: 0  120px var(--color-line-2), 0 200px var(--color-line-3), 0 305px  var(--color-line-3),  0 400px var(--color-line-4), 0 500px var(--color-line-4); 
+      
+}
